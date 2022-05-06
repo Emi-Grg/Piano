@@ -1,1 +1,2 @@
-# Basic Piano Application Made With Electron-JS , HTML , CSS , Bootstrap , DOM
+#Piano 
+Basic Piano Application Made With Electron-JS , HTML , CSS , Bootstrap , DOM
