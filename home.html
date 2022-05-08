@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer ></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Home</title>
 </head>
@@ -14,8 +15,31 @@
         <p class="text-small "> Place where you can keep your notes and  </p>
 
     </div>
+    <div class="align-content-center" >
+            <div class="menu  container-fluid  container"> 
+                    <div> <p> Note:</p> </div>
+                    <div> 
+                         <form  method="post"  id="notes" >
+                        <input id="mynote" class = " form-text" type="text" placeholder="Write Note here" >
+                      <div style="display: flex;"> <div class="p-3"><button class="btn btn-dark" onclick="cow()" type="button">Submit</button> </div> <div class="p-3"> <button class="btn btn-light" type="reset"> Clear </button></div> </div>   
+                    </form>  
+                </div>
+                <div class="container"> <a href="index.html" class=" p-3 btn btn-primary" > Learn the piano </a> </div> 
+                <div class="container p-3"> <a href="piano.html" class=" p-3 btn btn-block" > Just piano </a> </div> 
+            
+            </div>
+          
+         <div class="container p-3"> 
+            <table id="memo" class="table" > 
+                <tr><td>NS</td> <td>Memos</td> <td>action</td></tr>
+                
+            </table>
+         </div>
 
-<a href="index.html"> hah</a>
+          
+    </div>
+
+
 
 
 
